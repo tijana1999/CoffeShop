@@ -1,0 +1,370 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 1px solid black;
+    position: fixed; 
+}
+#navigacija{
+     width: 30%;
+}
+
+#meni{
+    width: 25%;
+}
+.lista{
+    display: flex;
+    padding: 8%;
+    list-style-type: none;
+}
+.linkLI{
+    margin-left: 6%;
+}
+.linkA{
+    font-size: 1.3em;
+    text-decoration: none;
+    color:whitesmoke; 
+}
+.linkA:hover{
+    color:tomato;
+    transition: 1s;     
+}
+
+h1{
+    font-size:3em;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#meni{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#kafa{
+    text-decoration: none;
+    font-size: 3em;
+    color:whitesmoke;
+}
+#kafa:hover{
+    color:tomato;
+    transition: 1s;
+}
+#sredina{
+    width: 100%;
+    height: 90vh;
+    background-image: url("images/wall2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+#ime{
+    height: 20em;
+    margin-top: 5%;
+    background-color: rgb(1,1,1,0.6);
+    padding:4% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#ime p{
+    font-size: 1.5em;
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+    margin-bottom: 15%;
+    margin-top:4%;
+    width: 100%;
+}
+#taster1{
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1.5px solid whitesmoke;
+    padding:1%;
+    font-weight: 600;
+    width: auto;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 1.2em;
+}
+#taster1:hover{
+    color:tomato;
+    transition: 1s;
+    background-color: rgba(1,1,1,0.5);
+}
+#explore{
+    margin-top:3%;
+    background-image: url("images/wall3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#ex{
+    padding-top: 3%;
+    margin-left: 1%;
+    font-size: 3em;
+    text-align: center;
+    color:whitesmoke;
+}
+#blokovi{
+    margin-top:8%;
+    display:flex;
+    justify-content: space-around;
+}
+.bn{
+    font-size: 1.6em;
+    padding: 1%;
+    text-align: center;
+    margin-bottom: 3%;
+    border: 1px solid tomato;
+    background-color: rgba(1,1,1,0.7);
+}
+.blokcic{
+    width: 30%;
+    color:whitesmoke; 
+}
+.a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.a:hover{
+    color:red;
+    transition: 1s;
+}
+.kafe{
+    font-size: 1.2em;
+    font-weight: 540;
+    padding: 4%;
+    text-align: justify;
+}
+#explorew{
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.7);
+}
+#solja{
+    color:tomato;
+}
+span{
+    color:red;
+}
+#shop{
+    margin-top:5%;
+    background-color: black;
+    text-align: center;
+    padding:3%;
+}
+#sh{
+    padding-top:2%;
+    text-align: center;
+    font-size: 3em;
+    color:white;
+}
+#katalog{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-around;
+}
+.kat p{
+    color:white;
+}
+.slicica{
+    width:70%;
+}
+.kat{
+    width: 20%;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.kat img{
+    width: 80%;
+    padding-bottom: 5%;
+}
+.kat a{
+    text-decoration: none;
+    color: tomato;
+    border: 1px solid white;
+    padding:3%;
+}
+.kat p{
+    font-size: 1.5em;
+    padding-bottom: 8%;
+}
+#prikaz{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+#prikaz:hover{
+    color:tomato;
+}
+footer{
+    width: 100%;
+    height: 30em;
+    background-color: black;
+    margin-top:5%;
+}
+#p{
+    color:white;
+    font-size: 3em;
+    padding:5%;
+}
+#opis{
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+#kontakt{
+    padding-top:2%;
+    text-align: center;
+    font-size: 3em;
+    justify-content: space-around;
+    padding-bottom: 2%;
+  
+}
+#slika{
+    width: 40%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#tekst{
+    width: 40%;
+    text-align: justify;
+}
+#tijana{
+    width: 60%;
+    border: 2px solid black;
+}
+#tb{
+    font-size: 2.5em;
+    padding: 5%;
+}
+#opiss{
+    font-size: 1.2em;
+    padding-bottom: 20%;
+}
+#kontaktiraj{
+    text-decoration: none;
+    color:red;
+    font-size: 1.2em;
+}
+#strelica{
+    position: fixed;
+    color: yellowgreen;
+    font-size: 2.5em;
+    top:93%;
+    left:97%;
+}
+#strela:hover{
+    color:greenyellow;
+    transition: 1s;
+}
+#greska1,#greska2,#greska3,#greska4,#greska5,#greska7{
+    color:red;
+}
+#forma{
+    padding-top: 5%;
+    width:40%;
+    border:1.5px solid black;
+    margin:5% auto;
+    padding:1%;
+    border-radius:5px;
+    color:black;
+    background-color:white;
+}
+#forma p{
+    padding:1%;
+    margin-left:23%;
+    font-size:2.5em;
+    color:black;
+    font-family:'Comfortaa', cursive;
+}
+#forma2{  
+    margin-left:25%;
+}
+#taster{
+    background-color:black;
+    color:white;
+    font-size: 1em;
+    padding:2% 5%;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+}
+#taster:hover{
+    color:tomato;
+    transition: 1s;
+}
+#blokkod{
+    padding-top: 2%;
+    width:100%;
+    height:5em;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.kod a{
+    text-decoration:none;
+    color:whitesmoke;
+    font-size: 3em;
+}
+.kod a:hover{
+    color:tomato;
+    transition: 1s;
+}
+#spec{
+    font-size:2em;
+    font-family:'Comfortaa', cursive;
+}
+#tabela th{
+    border-bottom: 1px solid black;
+    text-align: left;
+     padding:15px;
+}
+#tabela td{
+    border-bottom: 1px solid black;
+    height:40px;
+    padding:15px;
+} 
+#sredina2{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:100%;
+}
+#tabeladiv{
+    background-color: white;
+    padding-left: 5%;
+}
+#slajderdiv{
+    padding-right: 3%;
+    padding-top:8%;
+}
+#linkovi li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size:1.5em;
+}
+#linkovi li a:hover{
+    color:tomato;
+    transition: 1s;
+}
+#menu li ul {
+    position: absolute; 
+}
+#meni li{
+    padding:3%;
+}
+#menu,#linkovi{
+    list-style-type: none;
+}
+
