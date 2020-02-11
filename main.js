@@ -119,13 +119,16 @@ window.addEventListener("load",function(){
       }
 
       $(document).ready(function(){
+        $('#menu li ul').css({
+            display: "none",
+          });
         $('#menu li').hover(function() {
           $(this)
-            .find('ul')
+            .find('ul') 
            .slideDown('fast');
         }, function() {
           $(this)
-            .find('ul')
+            .find('ul')  
             .fadeOut('fast');
         });
       });
